@@ -71,7 +71,7 @@
 /* background */
 
 body {
-  background: url("http://d7.freedomworks.org.s3.amazonaws.com/field/image/Tech.jpg");
+  background-image:url("/assets/images/Ski-sibillini-mountains.jpg");
   display:block;
   top: 0;
   left: 0;
@@ -87,3 +87,12 @@ body {
 * {
   border-radius: 0 !important;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
