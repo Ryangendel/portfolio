@@ -15,9 +15,9 @@ html,
 body{
 	min-height: 100%;
 }
-body{
+/* body{
 	background-image: radial-gradient(mintcream 0%, lightgray 100%);
-}
+} */
 h1{
 	display: table;
 	margin: 5% auto 0;
@@ -25,6 +25,9 @@ h1{
 	font-family: 'Anaheim', sans-serif;
 	font-size: 4em;
 	font-weight: 400;
+	
+	border-bottom-style:solid;
+	border-bottom: 2px solid #000;
 	text-shadow: 0 1px white, 0 2px black;
 }
 .container{
@@ -91,21 +94,72 @@ h1{
 	
 }
 
+.portfolio-item {
+	margin-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
 #GIF{
 	border-top:black;
 	border-style: solid;
 	padding-left: 100px;
 }
 
-.portfolio-item {
-	margin-right: 5px;
-		margin-left: 5px;
-    margin-bottom: 10px;
+.metmediaborder{
+	/* margin-right: 5px; */
+	margin-left:20px;	
+	margin-bottom: 10px;
     padding-right: 10px;
 		padding-left: 10px;
-		background: white;
-		border-top:black;
+		background:black;
+		/* border:black; */
 		border-style: solid;
+		height:200px;
+		width:300px;
+
+}
+
+.met{
+	/* margin-right: 5px; */
+		
+    margin-bottom: 10px;
+   
+		padding-left: 10px;
+		background:black;
+		/* border:black; */
+		border-style: solid;
+}
+
+ .notice{
+		margin-right: 5px;
+    padding-right: 10px;
+		padding-left: 10px;
+		background:black;
+		/* border:black; */
+		border-style: solid;
+}
+
+.gridboxcont{
+	margin-left:10px;
+}
+
+ .preferred{
+	margin-right: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background:black;
+	/* border:black; */
+	border-style: solid;
+}
+
+/* .portfolio-item{
+	margin-left:5px;
+} */
+
+.onesheetbackground{
+	background-color:#4E2a84;
+	
 }
 
 .namebars {
@@ -114,6 +168,13 @@ h1{
 
 .explaination{
 	text-align: center;
+}
+
+#metrogif{
+	margin-bottom:50px;
+}
+h3{
+	text-align:center;
 }
 
 

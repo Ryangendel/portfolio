@@ -28,6 +28,14 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "/../public/coding.html"));
   });
 
+  app.get("/analytics", function(req, res) {
+    res.sendFile(path.join(__dirname, "/../public/analytics.html"));
+  });
+
+  app.get("/contact", function(req, res) {
+    res.sendFile(path.join(__dirname, "/../public/contact.html"));
+  });
+
   app.get("/demoreel", function(req, res) {
     res.sendFile(path.join(__dirname, "/../public/demoreel.html"));
   });
