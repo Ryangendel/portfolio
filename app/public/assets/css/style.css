@@ -78,9 +78,8 @@ body {
   right: 0;
   bottom: 0;
   text-align: center;
-  /* color:#fff; */
-  
-}
+  color:#fff;
+} 
 
 * { color:#fff; text-decoration: none;}
 
@@ -94,7 +93,7 @@ body {
   bottom: 0;
   width: 100%;
 
-}
+} 
 
 .backgroundbox {
   position: relative;
@@ -107,6 +106,7 @@ body {
   bottom: 0;
   width: 300px;
   height:300px;
+  margin-bottom:50px;
 }
 
 .backgroundbox {
@@ -115,12 +115,15 @@ body {
   border: 1px solid white;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
-  height:500px;
-  width:400px;
+  height:400px;
+  width:90%;
+  margin-bottom:50px;
 }
 
-/* div.transbox p {
+div.transbox p {
   margin: 5%;
   font-weight: bold;
   color: #000000;
-} */
+}
+
+
