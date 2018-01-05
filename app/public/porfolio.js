@@ -1,4 +1,8 @@
-var TxtType = function(el, toRotate, period) {
+$('.nav-toggle').click(function() {
+    $('#navigation').toggleClass('nav-show').toggleClass('nav-hide')
+  });
+
+  var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;

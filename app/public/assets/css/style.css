@@ -1,99 +1,51 @@
-.dropdown-large {
-  position: static !important;
-}
-.dropdown-menu-large {
-  margin-left: 16px;
-  margin-right: 16px;
-  padding: 20px 0px;
-}
-.dropdown-menu-large > li > ul {
-  padding: 0;
-  margin: 0;
-}
-.dropdown-menu-large > li > ul > li {
-  list-style: none;
-}
-.dropdown-menu-large > li > ul > li > a {
-  display: block;
-  padding: 3px 20px;
-  clear: both;
-  font-weight: normal;
-  line-height: 1.428571429;
-  color: #333333;
-  white-space: normal;
-}
-.dropdown-menu-large > li ul > li > a:hover,
-.dropdown-menu-large > li ul > li > a:focus {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  color: #262626;
-  background-color: #f5f5f5;
-}
-.dropdown-menu-large .disabled > a,
-.dropdown-menu-large .disabled > a:hover,
-.dropdown-menu-large .disabled > a:focus {
-  color: #999999;
-}
-.dropdown-menu-large .disabled > a:hover,
-.dropdown-menu-large .disabled > a:focus {
-  text-decoration: none;
-  background-color: transparent;
-  background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  cursor: not-allowed;
-}
-.dropdown-menu-large .dropdown-header {
-  color: #428bca;
-  font-size: 18px;
-}
-@media (max-width: 768px) {
-  .dropdown-menu-large {
-    margin-left: 0 ;
-    margin-right: 0 ;
-  }
-  .dropdown-menu-large > li {
-    margin-bottom: 30px;
-  }
-  .dropdown-menu-large > li:last-child {
-    margin-bottom: 0;
-  }
-  .dropdown-menu-large .dropdown-header {
-    padding: 3px 15px !important;
-  }
-}
+
 
 /* Footer */
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-.bg-lightgray
-{
-    background-color:LightGray;
-}
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+
+
 
 /* background */
 
-body {
-  background-image:url("/assets/images/Ski-sibillini-mountains.jpg");
-  display:block;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  color:#fff;
-} 
+.glyphicon-fire{
+  color:red;
+}
 
-* { color:#fff; text-decoration: none;}
+.glyphicon-globe{
+color:green;
+}
 
-* {
-  border-radius: 0 !important;
+.glyphicon-stats{
+  color:blue;
+}
+
+.glyphicon-film{
+  color:black;
+}
+
+.bg-lightgray{
+  background-color:LightGray;
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
+  height:70px;
   width: 100%;
-
 } 
+
+/* .flippers{
+  margin-top:30px;
+} */
+
+.aboutme{
+  background-color: rgba(5, 5, 12, 0.705);
+  border-radius: 25px !important;
+  margin-top:60px;
+}
 
 .backgroundbox {
   position: relative;
@@ -127,10 +79,10 @@ div.transbox p {
 }
 
 
-.container {
-  width:750px;
+/* .container {
+  width:auto;
   margin:auto;
-}
+} */
 
 .panel .pad {
   padding: 0 15px; 
@@ -139,10 +91,15 @@ div.transbox p {
   display: none;
 }
 
+.caret{
+  color:black;
+}
+
 .panel {
   width: 200px;
   height: 300px;
   margin: 20px;
+  background:transparent;
   position: relative;
   display:inline-block;
   -webkit-perspective: 600px;
@@ -156,7 +113,7 @@ div.transbox p {
   
   -moz-box-shadow: 0 1px 15px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0 1px 15px rgba(0,0,0,0.1);
-  box-shadow: 0 1px 15px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.411);
   
   -webkit-transform: rotateX(0deg) rotateY(0deg);
   -webkit-transform-style: preserve-3d;
@@ -187,6 +144,7 @@ div.transbox p {
 .panel.flip .front {
   z-index: 900;
   background: #fff;
+  
   
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -251,7 +209,7 @@ div.transbox p {
 }
 
 .frontTitle {
-  padding-top:5px;
+  padding-top:20px;
   text-align:center;
   font-family:'latoregular',arial;
   font-size:18px;
@@ -266,20 +224,20 @@ div.transbox p {
     background-position:center center;
 }
 
-.isas {
-  background-image:url('http://dizin.x10.bz/codepen/wgaFq/isas.png');
-  background-size:150px 150px;
+.coding {
+  background-image:url('https://d14nx13ylsx7x8.cloudfront.net/comfy/cms/files/files/000/000/378/original/feature-3-2.png');
+  background-size:170px 130px;
 }
 
-.boisedigital {
- background-image:url('http://dizin.x10.bz/codepen/wgaFq/logo_dark.png');
-      background-size:85% auto;
+.graphicdesign {
+ background-image:url('http://www.gotopnp.com/Adobe_logo_AI_PS_ID.png');
+      background-size:80% auto;
   background-position:center center;
 }
 
-.dissolve {
- background-image:url('http://portfolio.dizin.x10.bz/images/dissolve.png');
-      background-size:125px 125px;  
+.analytics {
+ background-image:url('https://www.freeparking.co.nz/assets/Uploads/icon-earlydataanalysis.png');
+      background-size:180px 130px;  
 }
 
 .frontLocation {
@@ -291,7 +249,7 @@ div.transbox p {
 }
 
 .backTitle {
-  padding:10px;
+  padding:15px;
    color:#000;
   font-family:'latohairline',arial;
   font-size:16px;
@@ -328,6 +286,21 @@ div.transbox p {
   padding-left:15px;
 }
 
+.navbar-default .navbar-brand{
+  color:black;
+
+}
+
+.navbar-brand{
+  font-family: 'Permanent Marker', cursive;
+  font-size:32px;
+  font-weight:400;
+  color:black;
+}
+
+.navbar-header{
+  margin-left:100px;
+}
 /* =============== */
 
 
