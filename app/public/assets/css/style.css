@@ -96,9 +96,9 @@ div.transbox p {
 }
 
 .panel {
-  width: 200px;
-  height: 300px;
-  margin: 20px;
+   width: 100%;
+  /* height: 300px;  */
+  margin-top: 5%;
   background:transparent;
   position: relative;
   display:inline-block;

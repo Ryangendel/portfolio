@@ -113,7 +113,7 @@ h7{
   background: #263238;
   position: absolute;
   width: 30px;
-  height: 20px;
+  /* height: 20px; */
   z-index: 2;
   right: 0;
   top: 25px;
@@ -313,15 +313,19 @@ img {
 }
 
 .typewrite{
-  color:blue;
+  color:white;
   font-family: 'Shadows Into Light', cursive;
   font-size:70px;
 }
 
+.col-lg-12{
+  margin-top:50px;
+}
 
 /* CIRCLE PICTURE */
-.circle {
+/* .circle {
   margin-left:10%;
+  -webkit-clip-path: circle(50% at 50% 50%);
   clip-path: circle(50% at 50% 50%);
   background: url(https://i.imgur.com/ZypzCOD.jpg)
   left -15px
@@ -331,8 +335,28 @@ height: 200px;
 position: relative;
 width: 200px;
 z-index:3;
+} */
 
-}
+/* .circle {
+width: 200px;
+height: 200px;
+background-image: url(https://i.imgur.com/ZypzCOD.jpg);
+background-size: cover;
+display: block;
+} */
+
+.circle{
+  width: 200px;
+  height: 200px;
+  background-image: url(https://i.imgur.com/ZypzCOD.jpg);
+  background-size: cover;
+  display: block;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+ }
+
 
 .mask{
   margin-left:5%;
@@ -355,6 +379,11 @@ section{
   
   width : 960px;
   margin: auto;
+}
+
+.cover{
+  margin-top:100px;
+  /* margin-bottom:50px; */
 }
 
 .nav {
@@ -500,8 +529,9 @@ h2 > span {
 }
 
 .item:hover {
+  margin-top: -260px;
   cursor     : pointer;
-  margin-top : 0;
+  /* margin-top : 0; */
   height     : 484px;
   transition : all 225ms;
   box-shadow : 0 0 5px 1px #aaa;
