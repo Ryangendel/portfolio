@@ -29,7 +29,7 @@ width:100%;
 } */
 
 .background { 
-  background: url(https://blog.alexdevero.com/wp-content/uploads/2016/05/Web-Design-and-Maslow%E2%80%99s-Hierarchy-of-Needs-small.jpg) no-repeat center center fixed; 
+  background: url(https://i.imgur.com/7BCvYxL.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -348,10 +348,9 @@ display: block;
 .circle{
   width: 200px;
   height: 200px;
-  background-image: url(https://i.imgur.com/ZypzCOD.jpg);
+  background-image: url(https://i.imgur.com/JYAxxY8.png);
   background-size: cover;
   display: block;
-  -webkit-clip-path: circle(50% at 50% 50%);
   border-radius: 50%;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -382,7 +381,7 @@ section{
 }
 
 .cover{
-  margin-top:100px;
+  margin-top:50px;
   /* margin-bottom:50px; */
 }
 
@@ -531,12 +530,14 @@ h2 > span {
 .item:hover {
   margin-top: -260px;
   cursor     : pointer;
-  /* margin-top : 0; */
+ 
   height     : 484px;
   transition : all 225ms;
   box-shadow : 0 0 5px 1px #aaa;
   background : #fff;
 }
+
+ /* margin-top : 0; */
 
 .item:hover ul {
   height : 100px;
