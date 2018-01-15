@@ -14,7 +14,7 @@
 }
 
 .glyphicon-globe{
-color:green;
+color:rgb(98, 187, 65);
 }
 
 .glyphicon-stats{
@@ -156,7 +156,9 @@ div.transbox p {
   -webkit-box-shadow: 0 15px 50px rgba(0,0,0,0.2);
   box-shadow: 0 15px 50px rgba(0,0,0,0.2);
 }
-  	
+ 
+
+
 .panel .back {
   position: absolute;
   top: 0;

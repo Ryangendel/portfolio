@@ -31,11 +31,12 @@ var App = (function (window, document, undefined) {
         includeAPI = function () {
           var js,
             fjs = document.getElementsByTagName('script')[0];
-  
+           
           if (!document.getElementById('gmap-api')) {
             js = document.createElement('script');
             js.id = 'gmap-api';
             js.setAttribute('async', '');
+
             js.src = "//maps.google.com/maps/api/js?sensor=false&callback=App.mapInit";
             fjs.parentNode.insertBefore(js, fjs);
           }

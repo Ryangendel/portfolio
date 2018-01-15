@@ -19,9 +19,8 @@
 /* #parallax h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;} */
 #parallax h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
 #parallax p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
-.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
 
-.sc {color: #3b8595;}
+.sc {color: deepskyblue;}
 .ny {color: #3d3c3a;}
 .atw {color: #c48660;}
 
@@ -131,18 +130,19 @@ h4{
 	color:white;
 }
 
-span{
-  margin-top:10px;
-}
 
+/* 
 #demoreelvideo {
     float:none;
-        /* bottom: 0; */
-        /* display: block;
-        left: 0; */
+    
         margin: auto;
-        max-width: 100%;
-        width: 100%;
+        max-width: 50%;
+        width: 50%;
+} */
+
+.textnormal{
+  margin-bottom:60px;
+  margin-top:80px;
 }
 
 h6{
@@ -152,6 +152,16 @@ h6{
   text-decoration:none;
   font-family: 'Questrial', sans-serif;
 }
+
+.fontstyle{
+	padding-top:10px;
+	margin-top:50px;
+	line-height:24px;
+	font-family: 'Source Sans Pro', sans-serif;}
+
+  .first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+  
+
 
 .footer {
     position: relative;
