@@ -36,7 +36,7 @@ h5{
 	border-bottom: 2px solid #000;
 	text-shadow: 0 1px white, 0 2px black;
 }
-.container > #carousel{
+.container {
 	margin: 4% auto;
 	width: 210px;
 	height: 140px;
@@ -44,7 +44,9 @@ h5{
 	perspective: 1000px;
 }
 
-
+#myNavbar{
+	padding-right:90px;
+}
 
 #carousel{
 	width: 100%;

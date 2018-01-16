@@ -159,6 +159,10 @@ div.transbox p {
  
 
 
+.collapse{
+  padding-right:60px;
+}
+
 .panel .back {
   position: absolute;
   top: 0;

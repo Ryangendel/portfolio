@@ -45,6 +45,10 @@
 .ny {color: #3d3c3a;}
 .atw {color: #c48660;}
 
+#myNavbar{
+	padding-right:90px;
+}
+
 h5{
 	display: table;
 	margin: 5% auto 0;
