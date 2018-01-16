@@ -164,6 +164,11 @@ h7{
   
 }
 
+.item > ul > li{
+  margin-left:0;
+  color:black;
+}
+
 .nav li {
   text-align:left;
   font-size: 17px;
@@ -339,7 +344,7 @@ img {
 .typewrite{
   color:white;
   font-family: 'Shadows Into Light', cursive;
-  font-size:60px;
+  font-size:50px;
 }
 
 .col-lg-12{
