@@ -156,26 +156,36 @@ h7{
 
 .nav i {
   margin-right: 5px;
+  
+}
+
+.menu{
+  padding-top:20px;
+  
 }
 
 .nav li {
   text-align:left;
   font-size: 17px;
-  padding: 10px;
+  /* padding: 10px; */
   margin: 10px 0 10px 0;
   border-top: 1px solid rgba(0, 0, 0, 0);
   border-bottom: 1px solid rgba(0, 0, 0, 0);
   transition: all ease-out 0.250s;
+  
 }
 
 
 
-.nav li:hover {
-  border-top: 1px solid #263238;
-  border-bottom: 1px solid #263238;
+ li:hover {
+  /* border-top: 1px solid #263238;
+  
+  border-bottom: 1px solid #263238; */
   color:#ed6a5a;
   margin-left: 10px;
 }
+
+
 
 .logo {
   position: absolute;
@@ -188,6 +198,8 @@ h7{
   left: -30px;
   top: 50px;
   font-family: 'Permanent Marker', cursive;
+  font-size:27px;
+  color:#ed6a5a;
   z-index: 1;
 }
 
