@@ -576,7 +576,7 @@ h2 > span {
 .item:hover {
   margin-top: -251px;
   cursor     : pointer;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   height     : 484px;
   transition : all 225ms;
   box-shadow : 0 0 5px 1px #aaa;
