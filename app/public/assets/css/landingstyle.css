@@ -143,6 +143,7 @@ h7{
 }
 
 .nav-hide .nav-toggle {
+  width:50px;
   background: #fff;
   color: #455A64;
   top: 0;
