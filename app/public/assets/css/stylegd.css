@@ -48,7 +48,7 @@ h5{
 	padding-right:90px;
 }
 
-#carousel{
+/* #carousel{
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -87,7 +87,7 @@ h5{
 .carsoul:hover{
 	-webkit-filter: grayscale(0);
   transform: scale(1.2,1.2);
-}
+} */
 
 .namebarsgrid:hover{
 	/* transform: scale(1.2,1.2); */
@@ -361,7 +361,7 @@ h3{
 	/* Section - Parallax */
 	/**************************/
 	#parallax .parallax-one {
-		/* padding-top: 200px;  */
+		padding-top: 200px; 
 		padding-bottom: 200px; 
 		overflow: hidden; 
 		position: relative; 
@@ -392,3 +392,187 @@ h3{
 	@media screen and (max-width: 479px) {
 		#parallax .block {padding: 30px 15px; width:290px;}
 	}
+
+	/* asdfasdfasdfsadfasdfasdfsadf;lsajdfl;skjdf;aslkdjf;asldkfjl;asdkjfl;asdjf;alsdkjf;sadfj;asldjkf;sadfjk;lasdfjkasdf;asdfas;ldfjasd;fjasl;dfjas;ldfkjasdf */
+
+
+	main {
+		max-width: 900px;
+		width: 90%;
+		margin: 1em auto;
+		background: #fff;
+		border-radius: 20px;
+		padding: 0.6em;
+	  }
+	  
+	  h1 {
+		text-align: center;
+	  }
+	  
+	  a {
+		transition: all .3s ease-in-out;
+	  }
+	  
+	  .gallery {
+		background: #ddd;
+		border-radius: 20px;
+		padding: 10px;
+		text-align: center;
+		display: flex;
+		flex-flow: wrap;
+		justify-content: space-around;   
+	  }
+	  
+	  .thumb {
+		margin: 10px;
+		margin-top:15px;
+		max-width: 95%;
+		display: inline-block; /* for non-flex browsers */
+	  }
+	  
+	  .thumb a {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 100%;
+		-webkit-filter: grayscale(0.7);
+		filter: grayscale(0.7);
+	  }
+	  
+	  .thumb a:hover {
+		-webkit-filter: grayscale(0);
+		filter: grayscale(0);
+	  }
+	  
+	  .thumb img {
+		/* border-radius: 10px; */
+		max-width: 100%;
+		max-height: 150px;
+		vertical-align: bottom;
+		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.4);
+	  }
+	  
+	  .thumb:hover img {
+		transition: all .3s ease-in-out;
+		box-shadow: 0 0 6px 4px rgba(0, 100, 250, 0.4);
+		z-index: 20;
+	  }
+
+	
+	/* main {
+		max-width: 900px;
+		width: 90%;
+		margin: 1em auto;
+		background: #fff;
+		border-radius: 20px;
+		padding: 0.6em;
+	}
+	
+	h1 {
+		text-align: center;
+	}
+	
+	a {
+		transition: all .3s ease-in-out;
+	}
+	
+	.gallery1 {
+		background: #ddd;
+		border-radius: 20px;
+		padding: 10px;
+		text-align: center;
+		display: flex;
+		flex-flow: wrap;
+		justify-content: space-around;   
+	}
+	
+	.thumb {
+		margin: 2px;
+		max-width: 95%;
+		display: inline-block; 
+	}
+	
+	.thumb a {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 100%;
+		-webkit-filter: grayscale(0.7);
+		filter: grayscale(0.7);
+	}
+	
+	.thumb a:hover {
+		-webkit-filter: grayscale(0);
+		filter: grayscale(0);
+	}
+	
+	.thumb img {
+	
+		max-width: 100%;
+		max-height: 200px;
+		margin-top:20px;
+		vertical-align: bottom;
+		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.4);
+	}
+	
+	.thumb a:hover img {
+		transition: all .3s ease-in-out;
+		box-shadow: 0 0 6px 4px deepskyblue;
+		z-index: 20;
+	} */
+
+
+	/* MODAL thisisisisiisisisiisisisiisisisisisiisiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
+
+
+	
+
+
+/* 
+
+	
+	.container {width: 500px; margin: 50px auto}
+	
+	.open-modal {
+		background-color:#5cf9d2;
+		border: none;
+		border-radius: 4px;
+		color: #fff;
+		outline: none;
+		padding: 20px 40px;
+		text-transform: uppercase
+	}
+	
+	.open-modal:hover {background-color: #bff2e5}
+	
+	.modal {
+		background-color: #dbd9d9;
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		width: 400px;
+		height: 200px;
+		margin-left: -200px;
+		margin-top: -150px;
+		padding: 50px;
+		border-radius: 5px;
+		z-index: 10;
+		box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.7);
+	}
+	
+	.close-modal {
+		color:  #000;
+		text-decoration: none;
+		float: right;
+		position: absolute;
+		top: 10px;
+		right: 20px
+	} 
+	 */
+	
+	 .my-images{
+		 width: 100%;
+	 }
+	
+	
