@@ -414,7 +414,7 @@ h3{
 	  }
 	  
 	  .gallery {
-		background: #ddd;
+		/* background: #ddd; */
 		border-radius: 20px;
 		padding: 10px;
 		text-align: center;
